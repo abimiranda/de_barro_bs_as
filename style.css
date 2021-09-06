@@ -1,0 +1,61 @@
+body {
+    height: 100vh;
+    background: linear-gradient(to bottom, #432818, #99582a, #bb9457);
+    color: white;
+    }
+
+*::selection{
+    color: white;
+    background-color: #212529;
+}
+
+
+img {
+    width: 130px;
+    border-radius: 70px;
+    margin: 60px auto 20px;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    padding-bottom: 20px;
+    color: white;
+}
+
+p {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffffff;
+
+}
+
+p:hover{
+    background-color:#ffffff;
+
+}
+
+.links {
+    text-decoration: none; 
+    color: white;   
+}
+
+.links:hover{
+    color: #99582a;
+
+}
+
+.dev{
+    color: white;
+    margin-top:15%;
+    border: none;
+}
+
+.dev:hover{
+    background-color: transparent;
+    color: white;
+}
